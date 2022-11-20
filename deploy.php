@@ -14,7 +14,7 @@ add('writable_dirs', []);
 // Hosts
 
 host('ManGa')
-    ->set('hostname', 'ec2-43-206-153-90.ap-northeast-1.compute.amazonaws.com')
+    ->set('hostname', 'ec2-3-112-33-100.ap-northeast-1.compute.amazonaws.com')
     ->set('remote_user', 'ec2-user')
     ->set('deploy_path', '/var/www')
     ->set('identity_file', '~/.ssh/ManGa_key.pem');;
